@@ -19,14 +19,14 @@ import subprocess
 import pyrebase
 
 firebaseConfig = {
-  'apiKey': "AIzaSyB6nQO6Zhiu5ImedEiJ9i2URtSBA64kX2o",
-  'authDomain': "covid-19-project-fyp.firebaseapp.com",
-  'databaseURL': "https://covid-19-project-fyp-default-rtdb.asia-southeast1.firebasedatabase.app",
-  'projectId': "covid-19-project-fyp",
-  'storageBucket': "covid-19-project-fyp.appspot.com",
-  'messagingSenderId': "701975883354",
-  'appId': "1:701975883354:web:b5bcb74e65b2276c183263",
-  'measurementId': "G-VRQDT03C8T"
+  'apiKey': "",
+  'authDomain': "",
+  'databaseURL': "",
+  'projectId': "",
+  'storageBucket': "",
+  'messagingSenderId': "",
+  'appId': "",
+  'measurementId': ""
 };
 
 firebase = pyrebase.initialize_app(firebaseConfig)
